@@ -1,0 +1,11 @@
+num1 = (input("What is your name? " ))
+num2 = (input("What is your surname? " ))
+num3 = int(input("How old are you? "))
+num4 = int(input("Write a number "))
+num5 = int(input("Write a number again "))
+
+print(num1)
+print(num2)
+print(num3)
+print(num4)
+print(num5)
