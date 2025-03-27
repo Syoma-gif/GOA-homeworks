@@ -1,1 +1,0 @@
-print("Simon", "Petrosyan", 14)
