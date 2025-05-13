@@ -1,0 +1,12 @@
+
+.red-box {
+    background-color: rgb(255, 0, 0); 
+    width: 1000px;
+    height: 1000px;
+  }
+  
+  .red-box img {
+    width: 50%; 
+  }
+  
+  

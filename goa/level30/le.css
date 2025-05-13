@@ -1,0 +1,7 @@
+.photo {
+    width: 25vw;  
+    height: 50vh; 
+    object-fit: cover; 
+    display: block;
+  }
+  
