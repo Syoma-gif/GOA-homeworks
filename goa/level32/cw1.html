@@ -1,0 +1,25 @@
+<div class="images-container">
+  <img src="image1.jpg" class="responsive-img">
+  <img src="image2.jpg" class="responsive-img">
+</div>
+
+<style>
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .responsive-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 500px) {
+    .responsive-img {
+      width: 50%;
+      height: auto;
+    }
+  }
+</style>
