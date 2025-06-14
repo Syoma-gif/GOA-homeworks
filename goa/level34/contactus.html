@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>კონტაქტი</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .contact {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact h1 {
+      font-size: 36px;
+      color: darkblue;
+    }
+
+    .contact p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .contact form {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      padding: 10px 20px;
+      background-color: darkblue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .contact button:hover {
+      background-color: #800000; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact">
+    <h1>დაგვიკავშირდით</h1>
+    <p>თუ გსურთ მეტი ინფორმაცია ან გაქვთ კითხვები, გთხოვთ შეავსოთ ფორმა.</p>
+    <form>
+      <label for="name">სახელი:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">ელ. ფოსტა:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">შეტყობინება:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">გაგზავნა</button>
+    </form>
+  </div>
+
+</body>
+</html>
